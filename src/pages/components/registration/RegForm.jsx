@@ -27,7 +27,7 @@ function RegForm() {
 
     try {
       const { data, error } = await supabase
-        .from("user_info") // Replace 'user_info' with your actual table name
+        .from("user_info") // table name
         .insert([
           {
             name: formData.name,
