@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import LogIn from "./pages/logIn";
 import Home from "./pages/home";
 import Reg from "./pages/components/registration/Reg";
+import DashBoard from "./pages/DashBoard";
 
 const router = createBrowserRouter([
   {
@@ -12,12 +12,12 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/LogIn",
-    element: <LogIn />,
-  },
-  {
     path: "/Reg",
     element: <Reg />,
+  },
+  {
+    path: "/dashboard",
+    element: <DashBoard />,
   },
 ]);
 

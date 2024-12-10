@@ -1,0 +1,15 @@
+/* BodyMsg */
+
+.Message{
+    margin: 20% 10% 0 10%;
+}
+.Message h1{
+    font-size: 65px;
+}
+.Text{
+    margin: 3% 10% 0 10%;
+}
+.Text p{
+    font-size: 20px;
+    font-weight: 500;
+}
