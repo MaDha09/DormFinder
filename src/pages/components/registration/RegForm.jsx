@@ -89,6 +89,21 @@ function RegForm() {
         </div>
 
         <div>
+          <select
+            className="dropd inputs mt-4 mb-1"
+            name="role"
+            id="role"
+            value={formData.role}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Select Role</option>
+            <option value="Admin">Admin</option>
+            <option value="Client">Client</option>
+          </select>
+        </div>
+
+        <div>
           <input
             className="inputs mt-4 mb-4"
             type="password"

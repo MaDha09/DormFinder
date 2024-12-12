@@ -27,8 +27,8 @@
 /* row 1 */
 
 .term-button {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: white;
+    border: 1px solid black;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
@@ -39,6 +39,7 @@
 .longterm{
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
+    border-bottom: none !important;
     border-right: 0 !important;
 }
 .shorterm{

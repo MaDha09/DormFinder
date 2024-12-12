@@ -107,6 +107,18 @@
 .link:hover{
     color: blue;
 }
+.dropd{
+    width: 250px;
+    height: 65px;
+    padding: 10px;
+    border: 2px solid black !important;
+    appearance: none;
+    outline: none;
+}
+.dropd:focus {
+    border-color: black !important; /* Ensures border color stays black on focus */
+    box-shadow: none; /* Prevents any shadow effects */
+}
 
 /* col2 */
 

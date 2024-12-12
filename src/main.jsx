@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Reg from "./pages/components/registration/Reg";
 import DashBoard from "./pages/DashBoard";
+import Profile from "./Profile";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: <DashBoard />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ]);
 
