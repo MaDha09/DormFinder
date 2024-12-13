@@ -1,0 +1,132 @@
+/* profile */
+
+.profile{
+    margin-left: 25px;
+    margin-top: 5%;
+}
+
+.profile h3{
+    font-weight: 400;
+}
+
+.details{
+    margin-top: 3%;
+}
+
+.avat img{
+    height: 35px;
+    margin-left: 10px;
+}
+
+.details h5{
+    font-weight: 700;
+}
+
+.orderbtn{
+    background-color: #f7f7e9 !important;
+    display: flex;
+    width: 100%;
+}
+
+.profbtn{
+    width: 200px;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.btn1{
+    background-color: #41e08f;
+}
+
+.btn2{
+    background-color: #eb392e;
+}
+
+/* List */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.my{
+    margin-left: 20px;
+}
+
+.create{
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #41e08f;
+    border: none;
+    font-weight: 600;
+}
+
+.post{
+    height: 380px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.post img{
+    height: 380px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.detail .pin{
+    height: 20px;
+    width: 20px  ;
+}
+.detail{
+    width: 100%;
+}
+
+/* icons */
+
+.icons{
+    display: flex;
+    width: 100%;
+}
+
+.icons p{
+    display: flex; /* Enable flexbox for individual items */
+    justify-content: center; /* Center-align by default */
+    align-items: center; /* Vertically align the items */
+    margin: 0; /* Remove default margins */
+}
+
+.icons img{
+    height: 20px;
+    width: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+
+.btn{
+    width: 200px !important;
+    height: 50px;
+    padding: 10px;
+}
+
+.chat{
+    justify-content: space-between;
+}
+
+.chat img{
+    margin-left: auto;
+}

@@ -5,7 +5,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import Home from "./pages/Home";
 import Reg from "./pages/components/registration/Reg";
 import DashBoard from "./pages/DashBoard";
-import Profile from "./Profile";
+import Profile from "./pages/Profile";
+import Property from "./pages/Property";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/property",
+    element: <Property />,
   },
 ]);
 
