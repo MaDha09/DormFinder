@@ -12,7 +12,7 @@ function Feedback () {
             <>
                 <div className="feedback">
 
-                    <h3 className="feedbackTitle ms-3">RATE & COMMENT</h3>
+                    <h3 className="feedbackTitle ms-3 mt-4">RATE & COMMENT</h3>
 
                     <h5 className="rating ms-3">Rate this post:</h5>
 
@@ -33,16 +33,14 @@ function Feedback () {
                     </div>
 
                     <div className="inputtxt">
-                        <input
-                        className="inputcom mb-3"
-                        type="text"
-                        name=""
-                        id=""
-                        placeholder="Write a comment..."
-                        />
+                    <textarea
+                    placeholder="Write a comment..."
+                    className="txtarea mt-3 mb-3"
+                    >
+                    </textarea>
                     </div>
 
-                    <button className="btn btn-primary">Submit</button>
+                    <button className="btn btn-primary ms-4">Submit</button>
 
                 </div>
             </>

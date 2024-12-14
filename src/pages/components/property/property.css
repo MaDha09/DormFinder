@@ -14,15 +14,22 @@
     display: flex;
     flex-direction: row;
 }
-.col1{
+.colu1{
     width: 65%;
-    height: 100%;
+    height: 100vh;
     background-color: #f7f7e9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+hr{
+    margin: 0;
 }
 .colu2{
     width: 35%;
     height: 100%;
     background-color: #FCF5F3;
+    overflow: hidden;
 }
 
 /* Navbar */
@@ -65,7 +72,6 @@
     width: 100%;
     height: 400px;
     display: flex;
-    background-color: aqua;
 }
 .thumbnail{
     width: 70%;
@@ -103,7 +109,6 @@
 .descon{
     height: 300px;
     width: 100%;
-    background-color: aquamarine;
     padding-top: 1px;
 }
 .descon img{
@@ -111,7 +116,17 @@
 }
 
 .feedback{
-    height: 100vh;
+    background-color: antiquewhite;
+    padding: 20px; /* Adjust padding to balance spacing */
+    margin: 0; /* Prevent unintended margins */
+    box-sizing: border-box;
+}
+
+.feedback h3,
+.feedback h5,
+.feedback textarea,
+.feedback button {
+    margin: 0 !important; /* Remove default margins */
 }
 
 .stars span {
@@ -121,4 +136,40 @@
 .inputcom{
     width: 800px;
     height: 200px;
+}
+
+/* txtarea */
+
+.txtarea{
+    padding: 10px;
+    width: 90%;
+    margin-left: 3%;
+    height: 180px;
+}
+.inputtxt {
+    padding-bottom: 10px; /* Prevent margin collapsing */
+}
+/* column 2 */
+.colu2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.logbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #3d3453;
+    padding: 10px;
+}
+.logbtn:hover{
+    background-color: grey !important;
+    color:  #3d3453 !important;
+    cursor: pointer;
 }
