@@ -72,7 +72,7 @@ function DashForm() {
     <>
       <div className="dashform">
             <form onSubmit={handleSubmit}>
-                <div  className="row1">
+                <div  className="row01">
                 <div>
                         <button
                         type="button"
@@ -93,7 +93,7 @@ function DashForm() {
           </div>
                 </div>
 
-                <div className="row2">
+                <div className="row02">
                     <div>
                         <input
                             className="address"
@@ -127,7 +127,7 @@ function DashForm() {
                             placeholder="MinPrice"
                         />
                     </div>
-                    <button type="submit" className="searchbtn">
+                    <button type="submit" className="searchbtn01">
                         <img src={search} alt="search icon" />
                     </button>
                 </div>

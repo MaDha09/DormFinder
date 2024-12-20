@@ -2,7 +2,7 @@ import React from "react";
 import avatar from '../../../assets/images/noavatar.png'
 import './property.css';
 
-function Rdetails(){
+function  Rdetails(){
 
     return(
         <>
@@ -10,7 +10,7 @@ function Rdetails(){
                 <img src={avatar} className="avatar me-4 mt-3"/>
             </div>
             <div>
-                <a href="#" className="logbtn btn me-3 mt-3">Profile</a>
+                <a href="/profile" className="logbtn btn me-3 mt-3">Profile</a>
             </div>
         </>
     )

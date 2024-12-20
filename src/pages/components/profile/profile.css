@@ -122,6 +122,12 @@
     height: 50px;
     padding: 10px;
 }
+.btn1:hover{
+    background-color: #41e08f;
+}
+.btn2:hover{
+    background-color: red !important;
+}
 
 .chat{
     justify-content: space-between;
@@ -129,4 +135,40 @@
 
 .chat img{
     margin-left: auto;
+}
+.column21{
+    width: 65%;
+    height: 100vh;
+    background-color: #f7f7e9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+.column22{
+    width: 35%;
+    height: 100%;
+    background-color: #FCF5F3;
+    background-image: url('../../../assets/images/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.logbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #3d3453;
+    padding: 10px;
+}
+.logbtn:hover{
+    background-color: grey !important;
+    color:  #3d3453 !important;
+    cursor: pointer;
 }

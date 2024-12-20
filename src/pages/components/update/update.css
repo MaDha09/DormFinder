@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body{
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto; /* Automatically center the element horizontally */
+    padding: 0; /* Optional: Adjust padding if needed */
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: row;
+}
+.col1{
+    width: 65%;
+    height: 100%;
+    background-color: #f7f7e9;
+}
+.col2{
+    width: 35%;
+    height: 100%;
+    background-color: #FCF5F3;
+    background-image: url('../../../assets/images/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}

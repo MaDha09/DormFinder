@@ -60,6 +60,10 @@
     display: flex;
     margin: 1% 1% 0 1%;;
 }
+.conNav li a {
+    text-decoration: none;
+    color: #000;
+}
 
 /* Form */
 

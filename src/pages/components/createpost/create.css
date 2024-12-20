@@ -1,0 +1,125 @@
+.newPost{
+    width: 100%;
+}
+.row1{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Optional spacing between inputs */
+}
+.row1 input{
+    width: 30%;
+    height: 55px;
+    padding: 10px;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+.descrip{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    text-indent: 10px;
+}
+.row3{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Optional spacing between inputs */
+}
+.row3 input{
+    width: 30%;
+    height: 55px;
+    padding: 10px;
+}
+.row4{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Optional spacing between inputs */
+}
+.row4 div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Enable positioning for the pseudo-element */
+}
+
+.row4 div select {
+    height: 55px;
+    appearance: none; /* Hide the default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    padding-right: 35px; /* Space for the custom arrow */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.5; /* Ensure vertical alignment of text */
+}
+
+/* Custom arrow styling */
+.row4 div::after {
+    content: "▼"; /* Unicode for the downward arrow */
+    position: absolute;
+    top: 65%; /* Center vertically */
+    right: 15px; /* Align near the right edge of the select box */
+    transform: translateY(-50%); /* Perfect vertical centering */
+    pointer-events: none; /* Ensure clicks pass through to the select box */
+    color: #888; /* Arrow color */
+    font-size: 16px; /* Arrow size */
+}
+
+button{
+    width: 250px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d3453;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+input::placeholder{
+    padding: 10px;
+}
+
+
+/* column 2 */
+.column2{
+    width: 35%;
+    height: 100%;
+    background-color: #FCF5F3;
+}
+.subcol{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.logbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #3d3453;
+    padding: 10px;
+}
+.logbtn:hover{
+    background-color: grey !important;
+    color:  #3d3453 !important;
+    cursor: pointer;
+}
+.bgimg{
+    height: 70%;
+}

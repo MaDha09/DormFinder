@@ -1,4 +1,7 @@
 /* BodyMsg */
+body{
+    height: 100vh;
+}
 
 .Message{
     margin: 15% 10% 0 10%;
@@ -20,13 +23,15 @@
     margin: 5% 5% 0 5%;
 }
 
-.row1{
+.row01{
     display: flex;
+    align-items: center;
 }
 
 /* row 1 */
 
 .term-button {
+    color: black;
     background-color: white;
     border: 1px solid black;
     padding: 10px 20px;
@@ -53,10 +58,11 @@
     color: white; /* White text when selected */
   }
 
-.row2{
+.row02{
     display: flex;
+    align-items: center;
 }
-.row2 input{
+.row02 input{
     width: 250px;
     height: 70px;
     border-radius: 5px;
@@ -80,8 +86,9 @@
     border-radius: 0 !important;
 }
 
-.searchbtn{
+.searchbtn01{
     width: 150px;
+    height: 70px;
     background-color: #3d3453;
     border-radius: 5px;
     border-top-left-radius: 0 !important;
@@ -103,4 +110,15 @@
 .box h4{
     font-weight: 400;
     font-size: 20px;
+}
+
+.column1{
+    width: 65%;
+    height: 100vh;
+    background-color: #f7f7e9;
+}
+.column02{
+    width: 35%;
+    height: 100vh;
+    background-color: #FCF5F3;
 }

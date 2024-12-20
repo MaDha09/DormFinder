@@ -25,13 +25,9 @@ function ProfileInfo () {
                 </div>
 
             <div className="orderbtn">
-                <button className="profbtn btn1">
-                    Update Profile
-                </button>
+                <a href="/update" className="profbtn btn btn1">Update Profile</a>
 
-                <button className="profbtn btn2">
-                    Logout
-                </button>
+                <a href="/" className="btn profbtn btn2">Logout</a>
             </div>
 
             </div>

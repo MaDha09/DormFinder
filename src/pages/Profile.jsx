@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from "./components/home/NavBar";
 import ProfileInfo from "./components/profile/ProfileInfo";
 import List from "./components/profile/List";
+import './components/profile/profile.css'
+import Profilebtn02 from "./components/profile/Profilebtn02";
 
 function Profile () {
 
@@ -9,7 +11,7 @@ function Profile () {
         <>
 
         <div className="body">
-                <div className="col1">
+                <div className="column21">
 
                         <NavBar />
                         <ProfileInfo />
@@ -17,9 +19,9 @@ function Profile () {
                        
                 </div>
                 
-                <div className="col2">
+                <div className="column22">
 
-                       
+                       <Profilebtn02 />
 
                 </div>
         </div>

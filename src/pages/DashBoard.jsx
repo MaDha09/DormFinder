@@ -4,13 +4,14 @@ import BtnProfile from "./components/dashboard/BtnProfile";
 import BodyMsg from "./components/dashboard/BodyMsg";
 import DashForm from "./components/dashboard/DashForm";
 import CardBox from "./components/dashboard/CardBox";
+import './components/dashboard/dashboard.css';
 
 function DashBoard (){
     return(
         <>
 
         <div className="body">
-                <div className="col1">
+                <div className="column1">
 
                         <NavBar />
                         <BodyMsg />

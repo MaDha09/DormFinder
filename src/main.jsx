@@ -7,6 +7,8 @@ import Reg from "./pages/components/registration/Reg";
 import DashBoard from "./pages/DashBoard";
 import Profile from "./pages/Profile";
 import Property from "./pages/Property";
+import File from "./pages/File";
+import ProfileUpdate from "./pages/components/update/UpdateProfile";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "/property",
     element: <Property />,
+  },
+  {
+    path: "/create",
+    element: <File />,
+  },
+  {
+    path: "/update",
+    element: <ProfileUpdate />,
   },
 ]);
 
